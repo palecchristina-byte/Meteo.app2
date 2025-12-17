@@ -1,6 +1,6 @@
 body {
   body {
-    animation: rotate-bg-color rotate background 5ms, infinite;
+    animation: rotate-bg-color rotate background 1, infinite;
   }
 
   @keyframes rotate-bg-color {
