@@ -1,40 +1,19 @@
 body {
-  animation: rotate-bg-color 10s infinite;
+  animation: rotate-bg-color 1s infinite ease-in-out;
 }
 
 @keyframes rotate-bg-color {
   0% {
-    background-color: steelblue;
+    background-color: #7c444f;
   }
   10% {
-    background-color: red;
+    background-color: #9f5255;
   }
   20% {
-    background-color: orange;
+    background-color: #e16a54;
   }
   30% {
-    background-color: yellow;
-  }
-  40% {
-    background-color: green;
-  }
-  50% {
-    background-color: blue;
-  }
-  60% {
-    background-color: indigo;
-  }
-  70% {
-    background-color: violet;
-  }
-  80% {
-    background-color: pink;
-  }
-  90% {
-    background-color: brown;
-  }
-  100% {
-    background-color: black;
+    background-color: #f39e60;
   }
 }
 
