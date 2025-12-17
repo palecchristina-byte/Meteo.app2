@@ -1,21 +1,40 @@
 body {
-  body {
-    animation: rotate-bg-color rotate background 1, infinite;
-  }
+  animation: rotate-bg-color 10s infinite;
+}
 
-  @keyframes rotate-bg-color {
-    0% {
-      background-color: #7c444f;
-    }
-    50% {
-      background-color: #9f5255;
-    }
-    75% {
-      background-color: #e16a54;
-    }
-    100% {
-      background-color: #f39e60;
-    }
+@keyframes rotate-bg-color {
+  0% {
+    background-color: steelblue;
+  }
+  10% {
+    background-color: red;
+  }
+  20% {
+    background-color: orange;
+  }
+  30% {
+    background-color: yellow;
+  }
+  40% {
+    background-color: green;
+  }
+  50% {
+    background-color: blue;
+  }
+  60% {
+    background-color: indigo;
+  }
+  70% {
+    background-color: violet;
+  }
+  80% {
+    background-color: pink;
+  }
+  90% {
+    background-color: brown;
+  }
+  100% {
+    background-color: black;
   }
 }
 
