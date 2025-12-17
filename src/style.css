@@ -1,5 +1,5 @@
 body {
-  animation: rotate-bg-color 15s infinite ease-in-out;
+  animation: rotate-bg-color 20s infinite ease-in-out;
 }
 
 @keyframes rotate-bg-color {
@@ -22,7 +22,6 @@ a {
 }
 
 .weather-app {
-  background: white;
   max-width: 600px;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
