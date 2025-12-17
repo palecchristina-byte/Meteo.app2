@@ -1,3 +1,24 @@
+body {
+  body {
+    animation: rotate-bg-color 2ms, ease-in-out;
+  }
+
+  @keyframes rotate-bg-color {
+    0% {
+      background-color: #7c444f;
+    }
+    50% {
+      background-color: #9f5255;
+    }
+    75% {
+      background-color: #e16a54;
+    }
+    100% {
+      background-color: #f39e60;
+    }
+  }
+}
+
 a {
   color: #885df1;
 }
