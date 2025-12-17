@@ -1,5 +1,5 @@
 body {
-  animation: rotate-bg-color 2ms ease-in-out;
+  animation: rotate-bg-color 15s infinite ease-in-out;
 }
 
 @keyframes rotate-bg-color {
