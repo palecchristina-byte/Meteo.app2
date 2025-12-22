@@ -4,16 +4,16 @@ body {
 
 @keyframes rotate-bg-color {
   0% {
-    background-color: #7c444f;
+    background-color: rgba(54, 116, 181, 0.6);
   }
   10% {
-    background-color: #9f5255;
+    background-color: rgba(87, 143, 202, 0.6);
   }
   20% {
-    background-color: #e16a54;
+    background-color: rgba(161, 227, 249, 0.6);
   }
   30% {
-    background-color: #f39e60;
+    background-color: rgba(204, 248, 239, 0.6);
   }
 }
 
@@ -122,7 +122,7 @@ main {
 }
 .weather-forecast-temperatures {
   text-align: center;
-  color: #ffd41d;
+  color: #ff4646;
   margin-top: 10px;
   display: flex;
   justify-content: center;
