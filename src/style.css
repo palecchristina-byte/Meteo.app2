@@ -6,13 +6,13 @@ body {
   0% {
     background-color: rgba(54, 116, 181, 0.6);
   }
-  10% {
+  50% {
     background-color: rgba(87, 143, 202, 0.6);
   }
-  20% {
+  75% {
     background-color: rgba(161, 227, 249, 0.6);
   }
-  30% {
+  100% {
     background-color: rgba(204, 248, 239, 0.6);
   }
 }
